@@ -1,0 +1,84 @@
+body {
+    background-image: url(https://i.pinimg.com/474x/01/c1/52/01c152e5158accc059d00dea25e01d2e.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+}
+
+.logo {
+    background-image: url(https://images2.alphacoders.com/111/1116781.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*  border: rgb(118, 88, 199) 3px solid;*/
+    width: 93%;
+    height: 100px;
+    padding: 30px;
+    margin: 20px;
+    text-align: center;
+    color: lemonchiffon;
+}
+
+.menu {
+    border: rgb(199, 88, 110) 3px solid;
+    width: 93%;
+    height: 20px;
+    padding: 10px;
+    margin: 30px;
+    text-align: center;
+    color: rgb(22, 22, 19);
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.botonesmenu {
+    width: 50px;
+    height: 20px;
+    border: darkmagenta 2px solid;
+    background-color: rgba(255, 255, 255, 0.329);
+    text-align: center;
+}
+
+.botonmenu2 {
+    width: 60px;
+    margin-left: 10px;
+}
+
+.inf {
+    background-image: url(https://images2.alphacoders.com/111/1116781.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    display: flexbox;
+    height: 150px;
+    overflow: hidden;
+    text-align: center;
+    color: rgb(89, 228, 151);
+}
+
+.contenedorflex {
+    background-color: rgba(37, 32, 32, 0.479);
+    /*  border: rgb(88, 173, 199) 3px solid;*/
+    width: 93%;
+    height: 600px;
+    padding: 10px;
+    margin: 30px;
+    text-align: center;
+    color: rgb(10, 12, 12);
+    display: flex;
+    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
+}
+
+.botones {
+    width: 50px;
+    height: 20px;
+    border: darkmagenta 2px solid;
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    text-align: center;
+}
+
+.boton1 {
+    width: 1150px;
+}

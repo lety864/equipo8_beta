@@ -1,0 +1,49 @@
+body {
+    background-image: url(https://i.pinimg.com/474x/01/c1/52/01c152e5158accc059d00dea25e01d2e.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+}
+
+.wrapper {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.middle {
+    width: 99%;
+    height: 590px;
+}
+
+.h {
+    width: 100%;
+    height: 33%;
+    border: 5px solid rgb(102, 47, 61);
+    color: white;
+}
+
+h1 {
+    color: white;
+}
+
+.centrado {
+    text-align: center;
+}
+
+img.centrado {
+    height: 150px;
+    width: 200 px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    background-image: url(https://images2.alphacoders.com/111/1116781.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 150px;
+    border: 5px solid rgba(102, 47, 61, 0);
+}

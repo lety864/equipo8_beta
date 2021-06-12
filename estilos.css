@@ -1,0 +1,62 @@
+body, html{
+    height: 100%;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url(imag/one1.jpg);
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  align-items: center;
+}
+
+.form-box{
+  width: 350px;
+  padding: 50px;
+  background: #191919;
+  text-align: center;
+}
+
+.form-title{
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.form-box input[type="text"],
+.form-box input[type="password"],
+.form-box input[type="date"]
+{
+  border: 1;
+  background: none;
+  display: block;
+  margin: 15px auto;
+  padding: 10px 8px;
+  text-align: left;
+  border: 2px solid #ffffff;
+  width: 200px;
+  outline: none;
+  color: white;
+ 
+}
+.form-box input[type="submit"]{
+  border: 1;
+  background: none;
+  display: block;
+  margin: 15px auto;
+  padding: 10px 8px;
+  text-align: center;
+  border: 0 px  #ffffff;
+  width: 200px;
+  outline: none;
+  color: white;
+
+}
+label{
+  color: white;
+}
