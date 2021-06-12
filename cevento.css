@@ -1,49 +1,161 @@
+html,
 body {
-    background-image: url(https://i.pinimg.com/474x/01/c1/52/01c152e5158accc059d00dea25e01d2e.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0
 }
 
-.wrapper {
-    width: 70%;
-    margin: 0 auto;
+body {
+    background: rgb(6, 1, 26);
+    font-family: 'Times New Roman', sans-serif;
 }
 
-.middle {
-    width: 99%;
-    height: 590px;
+p {
+    margin: 0 10px 10px;
+    font-family: sans-serif;
 }
 
-.h {
+a {
+    display: block;
+    padding: 10px
+}
+
+
+/*Encabezado--------------------------------------------------------------------------------*/
+
+div#header {
+    height: 400px;
+    line-height: 80px;
+    margin: 0;
+    padding: 0;
+}
+
+.contenedoritem {
+    position: relative;
+    height: 400px;
+    line-height: 80px;
+    margin: 0;
+    padding: 0;
+}
+
+.contenedoritem:before {
+    content: "";
     width: 100%;
-    height: 33%;
-    border: 5px solid rgb(102, 47, 61);
-    color: white;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(22, 21, 21, 0.377));
+    filter: drop-shadow(0px 0px 20px);
+    color: black;
+    margin: 0;
+    padding: 0;
 }
 
-h1 {
-    color: white;
+.contenedorimg {
+    width: 100%;
+    height: 400px;
+    margin: 0;
+    padding: 0;
 }
 
-.centrado {
+
+/*fin del encabezado------------------------------------------------------------------------*/
+
+
+/*titulos-----------------------------------------------------------------------------------*/
+
+#titulo {
+    color: rgb(112, 185, 176);
+    font-family: monospace, monaco;
+}
+
+
+/*fin de titulos ---------------------------------------------------------------------------*/
+
+
+/*parte del main etiqueta div----------------------------------------------------------------------*/
+
+.contenedorflex {
+    background-color: rgb(0, 0, 0);
+    width: 93%;
+    height: 900px;
+    padding: 10px;
+    margin: 30px;
+    text-align: center;
+    display: flex;
+    filter: drop-shadow(0px 0px 10px);
+    color: rgba(255, 255, 255, 0.664);
+}
+
+
+/*fin parte del main ----------------------------------------------------------------------*/
+
+div#footer {
+    background: rgb(0, 0, 0);
+    color: #FFF;
+    clear: left;
+    width: 100%;
     text-align: center;
 }
 
-img.centrado {
-    height: 150px;
-    width: 200 px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+footer {
+    height: 50 px;
 }
 
-header {
-    background-image: url(https://images2.alphacoders.com/111/1116781.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 150px;
-    border: 5px solid rgba(102, 47, 61, 0);
+div#footer p {
+    margin: 0;
+    padding: 5px 10px;
+}
+
+
+/*menu eventos -----------------------------------------------------------------------------*/
+
+ul {
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 4px;
+}
+
+nav ul li a {
+    border-radius: 10px;
+    background: royalblue;
+    padding: 9px 10px;
+    display: block;
+    text-decoration: none;
+    font-size: 15px;
+    color: rgba(red, green, blue, alpha);
+}
+
+nav ul li a:hover {
+    background: rgba(20, 17, 17, 0.5);
+    color: rgba(red, green, blue, alpha);
+    transition: 1s;
+}
+
+.persiana ul {
+    position: relative;
+    padding-left: 0;
+    min-width: 130px;
+    display: none;
+}
+
+.persiana ul li a {
+    color: darkgrey;
+    width: auto;
+}
+
+.persiana:hover ul {
+    position: relative;
+    display: flex;
+    flex-direction: row;
 }
