@@ -1,109 +1,84 @@
-html,
 body {
-    margin: 0;
-    padding: 0
+    background-image: url(https://i.pinimg.com/474x/01/c1/52/01c152e5158accc059d00dea25e01d2e.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
 }
 
-body {
-    background: rgb(6, 1, 26);
-    font-family: 'Times New Roman', sans-serif;
-}
-
-p {
-    margin: 0 10px 10px;
-    font-family: sans-serif;
-}
-
-a {
-    display: block;
-    padding: 10px
-}
-
-
-/*Encabezado--------------------------------------------------------------------------------*/
-
-div#header {
-    height: 400px;
-    line-height: 80px;
-    margin: 0;
-    padding: 0;
-}
-
-.contenedoritem {
-    position: relative;
-    height: 400px;
-    line-height: 80px;
-    margin: 0;
-    padding: 0;
-}
-
-.contenedoritem:before {
-    content: "";
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    right: 0;
-    background: linear-gradient(rgba(255, 255, 255, 0), rgba(22, 21, 21, 0.377));
-    filter: drop-shadow(0px 0px 20px);
-    color: black;
-    margin: 0;
-    padding: 0;
-}
-
-.contenedorimg {
-    width: 100%;
-    height: 400px;
-    margin: 0;
-    padding: 0;
-}
-
-
-/*fin del encabezado------------------------------------------------------------------------*/
-
-
-/*titulos-----------------------------------------------------------------------------------*/
-
-#titulo {
-    color: rgb(112, 185, 176);
-    font-family: monospace, monaco;
-}
-
-
-/*fin de titulos ---------------------------------------------------------------------------*/
-
-
-/*parte del main etiqueta div----------------------------------------------------------------------*/
-
-.contenedorflex {
-    background-color: rgb(0, 0, 0);
+.logo {
+    background-image: url(https://images2.alphacoders.com/111/1116781.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*  border: rgb(118, 88, 199) 3px solid;*/
     width: 93%;
-    height: 900px;
+    height: 100px;
+    padding: 30px;
+    margin: 20px;
+    text-align: center;
+    color: lemonchiffon;
+}
+
+.menu {
+    border: rgb(199, 88, 110) 3px solid;
+    width: 93%;
+    height: 20px;
     padding: 10px;
     margin: 30px;
     text-align: center;
+    color: rgb(22, 22, 19);
     display: flex;
-    filter: drop-shadow(0px 0px 10px);
-    color: rgba(255, 255, 255, 0.664);
-    overflow-y: scroll;
+    flex-wrap: nowrap;
 }
 
-
-/*fin parte del main ----------------------------------------------------------------------*/
-
-div#footer {
-    background: rgb(0, 0, 0);
-    color: #FFF;
-    clear: left;
-    width: 100%;
+.botonesmenu {
+    width: 50px;
+    height: 20px;
+    border: darkmagenta 2px solid;
+    background-color: rgba(255, 255, 255, 0.329);
     text-align: center;
 }
 
-footer {
-    height: 50 px;
+.botonmenu2 {
+    width: 60px;
+    margin-left: 10px;
 }
 
-div#footer p {
-    margin: 0;
-    padding: 5px 10px;
+.inf {
+    background-image: url(https://images2.alphacoders.com/111/1116781.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    display: flexbox;
+    height: 150px;
+    overflow: hidden;
+    text-align: center;
+    color: rgb(89, 228, 151);
+}
+
+.contenedorflex {
+    background-color: rgba(37, 32, 32, 0.479);
+    /*  border: rgb(88, 173, 199) 3px solid;*/
+    width: 93%;
+    height: 600px;
+    padding: 10px;
+    margin: 30px;
+    text-align: center;
+    color: rgb(10, 12, 12);
+    display: flex;
+    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
+}
+
+.botones {
+    width: 50px;
+    height: 20px;
+    border: darkmagenta 2px solid;
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    text-align: center;
+}
+
+.boton1 {
+    width: 1150px;
 }

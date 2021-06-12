@@ -16,18 +16,17 @@ p {
 
 a {
     display: block;
+    color: #981793;
     padding: 10px
-}
-
-i {
-    padding: 10px;
 }
 
 
 /*parte del encabezado---------------------------------------------*/
 
+
+/*en h1 poner el titutlo encima de la imagen */
+
 div#header {
-    width: 97%;
     height: 400px;
     line-height: 80px;
     margin: 0;
@@ -36,7 +35,6 @@ div#header {
 
 .contenedoritem {
     position: relative;
-    width: 100%;
     height: 400px;
     line-height: 80px;
     margin: 0;
@@ -51,7 +49,6 @@ div#header {
     top: 0;
     right: 0;
     background: linear-gradient(rgba(255, 255, 255, 0), rgba(22, 21, 21, 0.863));
-    filter: drop-shadow(0px 0px 13px);
 }
 
 .contenedorimg {
@@ -60,71 +57,6 @@ div#header {
     margin: 0;
     padding: 0;
 }
-
-
-/*slider -----------------------------------------------------------------------------*/
-
-ul li {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-}
-
-ul.slider {
-    position: relative;
-    width: 100%;
-    height: 400px;
-}
-
-ul.slider li {
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    opacity: 0;
-    width: inherit;
-    height: inherit;
-    transition: 1s;
-    animation-direction: alternate;
-    background: #FFF;
-}
-
-ul.slider li img {
-    object-fit: cover;
-}
-
-ul.slider li:first-child {
-    opacity: 1;
-}
-
-ul.slider li:target {
-    opacity: 1;
-}
-
-.opcion {
-    margin: 10px;
-    margin-left: 1145px;
-    position: relative;
-    top: -90px;
-}
-
-.opcion li {
-    display: inline-block;
-}
-
-.opcion li a {
-    display: inline-block;
-    background-color: rgba(76, 32, 156, 0.63);
-    padding: 7px;
-    width: 20px;
-    height: 20px;
-    border-radius: 100%;
-}
-
-
-/*fin del slider----------------------------------------------------------------------*/
-
-
-/*titulos ----------------------------------------------------------------------------*/
 
 #titulo {
     color: rgb(112, 185, 176);
@@ -144,9 +76,6 @@ ul.slider li:target {
     padding-top: 10px;
     margin: 10px;
 }
-
-
-/*fin de titulos ---------------------------------------------------------------------*/
 
 
 /*fin del encabezado---------------------------------------------*/
@@ -265,6 +194,9 @@ img.extra3 {
     margin: auto;
 }
 
+
+/*titutlo----------------------------------------------------*/
+
 img.titulo {
     float: left;
     width: 20px;
@@ -292,18 +224,15 @@ div.centro {
 }
 
 article {
-    display: inline-block;
-    position: relative;
     width: 120%;
-    height: 1950px;
+    height: 1900px;
     background: rgb(2, 2, 2);
     filter: drop-shadow(10px 10px 12px);
     font: 15px arial, sans-serif;
     color: white;
     margin-left: -150px;
     border-radius: 20px;
-    overflow: hidden;
-    clear: right;
+    text-justify: distribute-all-lines;
 }
 
 .mainmenubtn {
